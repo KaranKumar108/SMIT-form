@@ -2,191 +2,146 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saylani Welfare</title>
+    
+    <link rel="stylesheet" href="/styling/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300&family=Roboto&display=swap" rel="stylesheet">
 </head>
-<style>
-    body {
-        background: url(./images/bg.jpg);
-        background-position: -120px -5px;
-        height: 1800px;
-    }
-
-    form {
-        background-color: rgba(255, 255, 255, 0.743);
-        display: block;
-        margin: 5% auto;
-        padding: 60px 40px;
-        border-radius: 30px;
-        border: 3px solid white;
-        width: 800px;
-    }
-
-    .left {
-        float: left;
-        display: block;
-        background-color: rgba(0, 0, 0, 0.524);
-        padding: 0% 0%;
-    margin: -4% 25%;
-    border-radius: 50px;
-}
-
-    form input {
-        padding: 10px;
-        margin: auto ;
-        font-size: larger;
-
-    }
-
-    form h1 {
-        text-align: center;
-        font-size: 60px;
-        line-height: 50px;
-        margin-bottom: 100px;
-        color: rgba(0, 0, 0, 0.774);
-    }
-
-    form label {
-        font-size: larger;
-    }
- 
-    .left img{
-        width: 50%;
-        margin: -12% 25%;
-        display: block;
-    }
-    .btn1{
-        margin: 0% 35%;
-        padding: -10% 10%;
-        background: none;
-        border: none;
-        color: white;
-        font-weight: bold;
-        cursor: pointer;
-        text-decoration: underline;
-
-    }
-    .btn1:hover{
-       background-color: rgba(0, 0, 0, 0.695);
-    }
-    .btn2{
-        margin: -10% -30%;
-        padding: -10% 10%;
-        background: none;
-        color: white;
-        font-weight: bold;
-        border: none;
-        cursor: pointer;
-        text-decoration: underline;
-    }
-    .btn2:hover{
-       background-color: rgba(0, 0, 0, 0.695);
-    }
-    form h2{
-        line-height: 0px;
-    }
-    form .select{
-        line-height: 40px;
-    }
-</style>
-
 <body>
-    <div class="left">
-        <img src="./images/Logo.png">
-        <button class="btn1">Contact Us</button>
-        <button class="btn2">Email us</button><br><br>
-
-    </div>
-    <div>
-        
-    </div>
-<br><br><br><br>
-
+    <img src="/images/logo.a0ed90ea.jpg" />
+    <h1 style="font-family: Arial, Helvetica, sans-serif">
+        Course Registration Form
+    </h1>
     <form action="#">
-<h1>Gym Membership Form</h1><hr>
-
-        <label class="fhead" for="name">Name:</label>
         <div>
-            <input type="text" name="name" id="name" placeholder="First Name" required>
-            <input type="text" name="name" id="name" placeholder="Last Name" required>
-        </div>
-
-        <label class="fhead" for="Cweight">Your Current Weight (lbs):</label>
-        <div>
-            <input type="number" name="name" id="Cweight" required>
-        </div>
-
-        <label class="fhead" for="Dweight">Your Desired Weight (lbs):</label>
-        <div>
-            <input type="number" name="name" id="Dweight" required>
-        </div>
-
-        <label class="fhead" for="height">Height:</label>
-        <div>
-            <input type="number" name="name" id="height" placeholder="in Inches" required>
-        </div>
-
-        <label class="fhead" for="adress">Adress:</label>
-        <div>
-            <input type="text" name="adress" id="adress" placeholder="Street Adress" required>
-            <input type="text" name="adress" id="adress" placeholder="City" required>
-            <select name="city">
-                <option value="sindh">Sindh</option>
-                <option value="kpk">Kaybher Pakhtoon Khawa</option>
-                <option value="balochistan">Balochistan</option>
+            <div>
+                <h2>Select City</h2>
+                <h2 style="margin-left: 38.55%;">Select Course</h2>
+            </div><br>
+            <select name="city" id="city" class="fline">
+                <option value=""></option>
+                <option value="karachi">Karachi</option>
+                <option value="hyderabad">Hyderabad</option>
+                <option value="sukhar">Sukhar</option>
             </select>
-            <input type="number" name="postalcode" id="adress" placeholder="ZIP/Postal Code" required>
-        </div>
+            <select name="course" id="couse" class="fline">
+                <option value="select">Select</option>
+                <option value="wma">Web and Mobile Application</option>
+                <option value="gd">Graphic Designing</option>
+                <option value="aichat">AI and ChatBot</option>
+            </select>
+        </div><br>
+        <div><br>
+            <div><br>
+                <label for="name">
+                    <h2>Full Name</h2>
+                </label>
+                <label for="fname">
+                    <h2 style="margin-left: 38.5%;">Father Name</h2>
+                </label>
+            </div><br>
+            <input type="text" name="name" id="name" class="sline" placeholder="Enter Full Name" />
+            <input type="text" name="fname" id="fname" class="sline" placeholder="Father Name" />
+        </div><br>
+        <div><br>
+            <div><br>
+                <h2>DOB (Date of Birth)</h2>
+                <h2 style="margin-left: 30.2%;">Gender</h2><br>
+            </div><br>
+            <input type="date" name="dob" id="dob" class="tline" />
+            <select name="" id="" class="tline">
+                <option value="">Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div><br>
+        <div><br>
+            <div><br>
+                <label for="email">
+                    <h2>Email</h2>
+                </label>
+                <label for="cnumber">
+                    <h2 style="margin-left: 42.7%;">Contact No</h2>
+                </label>
+            </div><br>
+            <input type="email" name="email" id="email" class="frline" placeholder="example@gmail.com" />
+            <input type="number" name="cnumber" id="cnumber" class="frline" placeholder="03xx-xxxxxxx" />
+        </div><br>
 
-        <label class="fhead" for="number">Phone No:</label>
-        <div>
-            <input type="number" name="number" id="number" required>
-        </div>
-
-        <label class="fhead" for="email">Email:</label>
-        <div>
-            <input type="email" name="email" id="email" required>
-        </div><br><hr><br>
-
-       <h2>Do You Requreid Personal Trainer?</h2> 
-        <div class="select">
-            <div>
-                <input type="radio" name="ptrainer" id="yes" required checked="cheaked">
-                <label for="yes">Yes</label>
+        <div><br>
+            <div><br>
+                <label for="cnic">
+                    <h2>CNIC</h2>
+                </label>
+                <label for="fcnic">
+                    <h2 style="margin-left: 43.1%;">Father's CNIC</h2>
+                </label><br><br>
             </div>
-
-            <div>
-                <input type="radio" name="ptrainer" id="no" required>
-                <label for="no">No</label>
-
-            <br><hr><br>
-
-           <h2>Membership Type:</h2>
-            <div class="select">
-                <div>
-                    <input type="radio" name="membership" id="regular" required>
-                    <label for="regular">Regular</label>
-                </div>
-
-                <div>
-                    <input type="radio" name="membership" id="pro" required>
-                    <label for="pro">Pro</label>
-
-                </div>
-
-                <div>
-                    <input type="radio" name="membership" id="vip" required>
-                    <label for="vip">VIP</label>
-
-                </div>
-
-            </div>
-
-
+            <input type="number" name="cnic" id="cnic" maxlength="15" class="fvline"
+                placeholder="e.g 42101-1111111-1" />
+            <input type="number" name="fcnic" id="fcnic" maxlength="15" class="fvline"
+                placeholder="e.g 42101-1111111-1" />
+        </div><br>
+        <div><br><br>
+            <h2>Full and Permanent Adress</h2>
+        </div><br>
+        <input type="text" name="adress" class="sxline" />
+        <div><br><br>
+            <div><br>
+                <h2>Last Qulification</h2>
+            </div><br>
+            <input type="radio" class="radio" name="qulification" id="matric" />
+            <label for="matric" class="radiotext">Matric</label>
+            <input type="radio" class="radio2" name="qulification" id="intermediate" />
+            <label for="intermediate" class="radiotext">Intermediate</label>
+            <input type="radio" class="radio2" name="qulification" id="undergraduate" />
+            <label for="undergraduate" class="radiotext">Undergraduate</label>
+            <input type="radio" class="radio2" name="qulification" id="graduate" />
+            <label for="graduate" class="radiotext">Graduate</label>
+            <br><br>
+            <input type="radio" class="radio" name="qulification" id="master" />
+            <label for="graduate" class="radiotext">Master</label>
+            <input type="radio" class="radio3" name="qulification" id="phd" />
+            <label for="graduate" class="radiotext">PHD</label>
+        </div><br>
+        <div><br>
+            <div><br>
+                <h2>Passport Size Profile Image</h2>
+            </div><br>
+            <input type="file" name="file" id="profile pic" class="file" accept="image/png, image/jpg, image/jpeg" />
+            <br /><br /><br />
+            <hr /><br />
+        </div>
+        <div>
+            <ol>
+                <li>
+                    I hereby, solemnly declare that the data and facts mentioned herein
+                    are true and correct to the best of my knowledge. Further, I will
+                    abide by my all the establish and future regulation and policies of
+                    SWIT.
+                </li>
+                <li>
+                    I hereby accept the responsibilites of the good conduct and
+                    guarantee that I will not be involved in any other activity, polical
+                    or ethic, but learning during my stay in the program.
+                </li>
+                <li>
+                    Defiance will render my admission cancelled at any point in time.
+                </li>
+                <li>
+                    Upon completion of course, I will complete the required project by SWIT.
+                </li>
+            </ol>
+        </div>
+        <br><br><br>
+        <div>
+            <button class="btn">Submit</button>
+        </div><br><br>
     </form>
-
+    <p>Developed By: Karan Kumar, kkvmalhi@gmail.com</p>
 </body>
-
 </html>

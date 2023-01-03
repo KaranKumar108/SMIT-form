@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    background-color: rgb(1, 103, 179);
+    color: white;
+    padding: 65px 75px;
+    font-size: 45px;
+    padding-bottom: 80px;
+    margin: -2% 0%;
+    font-weight: lighter;
+}
+
+img {
+    width: 8%;
+    border-radius: 50%;
+    border: 5px solid #282262;
+    margin: -16% 2%;
+}
+
+form {
+    margin-top: 80px;
+    padding: 25px 80px;
+}
+
+form h2 {
+    display: inline;
+    /* color: #282262; */
+    font-family: inherit;
+    margin-left: 35px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #024ca1;
+}
+
+
+form .fline {
+    width: 45%;
+    background-color: transparent;
+    outline: none;
+    color: #0267b4;
+    border: none;
+    border-bottom: 1px solid #0267b4;
+    margin-left: 35px;
+}
+
+form .fline:focus {
+    width: 45%;
+    background-color: transparent;
+    outline: none;
+    color: #0267b4;
+    border: none;
+    border-bottom: 3px solid #03508b;
+    margin-left: 35px;
+}
+
+form .sline {
+    width: 45%;
+    background-color: transparent;
+    outline: none;
+    color: #0267b4;
+    border: none;
+    border-bottom: 1px solid #0267b4;
+    margin-left: 35px;
+}
+
+form .sline:focus {
+    width: 45%;
+    background-color: transparent;
+    outline: none;
+    color: #0267b4;
+    border: none;
+    border-bottom: 3px solid #03508b;
+    margin-left: 35px;
+}
+
+form .tline {
+    width: 45%;
+    background-color: transparent;
+    outline: none;
+    color: #0267b4;
+    border: none;
+    border-bottom: 1px solid #0267b4;
+    margin-left: 35px;
+}
+
+form .tline:focus {
+    width: 45%;
+    background-color: transparent;
+    outline: none;
+    color: #0267b4;
+    border: none;
+    border-bottom: 3px solid #03508b;
+    margin-left: 35px;
+}
+
+form .frline {
+    width: 45%;
+    background-color: transparent;
+    outline: none;
+    color: #0267b4;
+    border: none;
+    border-bottom: 1px solid #0267b4;
+    margin-left: 35px;
+}
+
+form .frline:focus {
+    width: 45%;
+    background-color: transparent;
+    outline: none;
+    color: #0267b4;
+    border: none;
+    border-bottom: 3px solid #03508b;
+    margin-left: 35px;
+}
+
+form .fvline {
+    width: 45%;
+    background-color: transparent;
+    outline: none;
+    color: #0267b4;
+    border: none;
+    border-bottom: 1px solid #0267b4;
+    margin-left: 35px;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+form .fvline:focus {
+    width: 45%;
+    background-color: transparent;
+    outline: none;
+    color: #0267b4;
+    border: none;
+    border-bottom: 3px solid #03508b;
+    margin-left: 35px;
+}
+
+form .sxline {
+    width: 94%;
+    background-color: transparent;
+    outline: none;
+    color: #0267b4;
+    border: none;
+    border-bottom: 1px solid #0267b4;
+    margin-left: 35px;
+}
+
+form .sxline:focus {
+    width: 94%;
+    background-color: transparent;
+    outline: none;
+    color: #0267b4;
+    border: none;
+    border-bottom: 3px solid #03508b;
+    margin-left: 35px;
+}
+
+form .radio {
+    margin-left: 3%;
+}
+
+form .radio2 {
+    margin-left: 10%;
+}
+
+form .radio3 {
+    margin-left: 9.49%;
+}
+
+form .radiotext {
+    font-size: large;
+    color: rgba(0, 0, 0, 0.744);
+}
+
+form ol li {
+    line-height: 25px;
+}
+
+form .file {
+    padding: 55px 35px;
+    border: 2px dashed #0267b4;
+    width: 94%;
+    margin-left: 35px;
+    font-size: large;
+    font-weight: lighter;
+}
+
+form .btn {
+    width: 100%;
+    padding: 10px 0px;
+    background-color: rgb(1, 103, 179);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+}
+
+form .btn:hover {
+    width: 100%;
+    padding: 10px 0px;
+    background-color: rgb(4, 68, 117);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: large;
+}
+
+p {
+    background-color: #0267b4;
+    color: white;
+    text-align: center;
+    padding: 5px 0px;
+}
