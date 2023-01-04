@@ -127,12 +127,12 @@ form .fvline {
     margin-left: 35px;
 
 }
-
+/* 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
-}
+} */
 
 form .fvline:focus {
     width: 45%;
