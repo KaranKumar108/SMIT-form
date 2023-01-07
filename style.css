@@ -1,29 +1,33 @@
+@media (min-width:1080px) and (max-width:2400px)
+{
 * {
     margin: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    /* display: none; */
 }
 
 h1 {
     background-color: rgb(1, 103, 179);
     color: white;
-    padding: 65px 75px;
-    font-size: 45px;
+    padding: 0px 75px;
+    padding-top: 80px;
+    font-size: 20px;
     padding-bottom: 80px;
-    margin: -2% 0%;
+    margin: -4% 0%;
     font-weight: lighter;
 }
 
 img {
-    width: 8%;
+    width: 9%;
     border-radius: 50%;
-    border: 5px solid #282262;
-    margin: -16% 2%;
+    border: 2px solid #282262;
+    margin: -16% 5%;
 }
 
 form {
-    margin-top: 80px;
-    padding: 25px 80px;
+    margin-top: 40px;
+    padding: 65px 10px;
 }
 
 form h2 {
@@ -31,14 +35,14 @@ form h2 {
     /* color: #282262; */
     font-family: inherit;
     margin-left: 35px;
-    font-size: 20px;
+    font-size: 13px;
     font-weight: 700;
     color: #024ca1;
 }
 
 
 form .fline {
-    width: 45%;
+    width: 35%;
     background-color: transparent;
     outline: none;
     color: #0267b4;
@@ -48,17 +52,17 @@ form .fline {
 }
 
 form .fline:focus {
-    width: 45%;
+    width: 35%;
     background-color: transparent;
     outline: none;
     color: #0267b4;
     border: none;
-    border-bottom: 3px solid #03508b;
+    border-bottom: 2px solid #03508b;
     margin-left: 35px;
 }
 
 form .sline {
-    width: 45%;
+    width: 35%;
     background-color: transparent;
     outline: none;
     color: #0267b4;
@@ -68,17 +72,17 @@ form .sline {
 }
 
 form .sline:focus {
-    width: 45%;
+    width: 35%;
     background-color: transparent;
     outline: none;
     color: #0267b4;
     border: none;
-    border-bottom: 3px solid #03508b;
+    border-bottom: 2px solid #03508b;
     margin-left: 35px;
 }
 
 form .tline {
-    width: 45%;
+    width: 35%;
     background-color: transparent;
     outline: none;
     color: #0267b4;
@@ -88,17 +92,17 @@ form .tline {
 }
 
 form .tline:focus {
-    width: 45%;
+    width: 35%;
     background-color: transparent;
     outline: none;
     color: #0267b4;
     border: none;
-    border-bottom: 3px solid #03508b;
+    border-bottom: 2px solid #03508b;
     margin-left: 35px;
 }
 
 form .frline {
-    width: 45%;
+    width: 35%;
     background-color: transparent;
     outline: none;
     color: #0267b4;
@@ -108,17 +112,17 @@ form .frline {
 }
 
 form .frline:focus {
-    width: 45%;
+    width: 35%;
     background-color: transparent;
     outline: none;
     color: #0267b4;
     border: none;
-    border-bottom: 3px solid #03508b;
+    border-bottom: 2px solid #03508b;
     margin-left: 35px;
 }
 
 form .fvline {
-    width: 45%;
+    width: 35%;
     background-color: transparent;
     outline: none;
     color: #0267b4;
@@ -135,17 +139,17 @@ input::-webkit-inner-spin-button {
 }
 
 form .fvline:focus {
-    width: 45%;
+    width: 35%;
     background-color: transparent;
     outline: none;
     color: #0267b4;
     border: none;
-    border-bottom: 3px solid #03508b;
+    border-bottom: 2px solid #03508b;
     margin-left: 35px;
 }
 
 form .sxline {
-    width: 94%;
+    width: 79%;
     background-color: transparent;
     outline: none;
     color: #0267b4;
@@ -155,29 +159,44 @@ form .sxline {
 }
 
 form .sxline:focus {
-    width: 94%;
+    width: 79%;
     background-color: transparent;
     outline: none;
     color: #0267b4;
     border: none;
-    border-bottom: 3px solid #03508b;
+    border-bottom: 2px solid #03508b;
     margin-left: 35px;
+}
+.Scourse{
+    margin-left: 27%;
+}
+.fathername{
+    margin-left: 27%;
+}
+.Sgender{
+    margin-left: 13.3%;
+}
+.Contactnumber{
+    margin-left: 35%;
+}
+.FatherNIC{
+    margin-left: 35%;
 }
 
 form .radio {
-    margin-left: 3%;
+    margin-left: 7.5%;
 }
 
 form .radio2 {
-    margin-left: 10%;
+    margin-left: 0%;
 }
 
 form .radio3 {
-    margin-left: 9.49%;
+    margin-left: 0%;
 }
 
 form .radiotext {
-    font-size: large;
+    font-size: x-small;
     color: rgba(0, 0, 0, 0.744);
 }
 
@@ -188,14 +207,17 @@ form ol li {
 form .file {
     padding: 55px 35px;
     border: 2px dashed #0267b4;
-    width: 94%;
+    width: 79%;
     margin-left: 35px;
     font-size: large;
     font-weight: lighter;
 }
-
+ol .instruction{
+    font-size: smaller;
+    text-align: justify;
+}
 form .btn {
-    width: 100%;
+    width: 81%;
     padding: 10px 0px;
     background-color: rgb(1, 103, 179);
     border: none;
@@ -203,6 +225,8 @@ form .btn {
     border-radius: 5px;
     cursor: pointer;
     font-size: large;
+    display: block;
+    margin: auto;
 }
 
 form .btn:hover {
@@ -221,4 +245,5 @@ p {
     color: white;
     text-align: center;
     padding: 5px 0px;
+}
 }

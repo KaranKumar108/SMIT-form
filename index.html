@@ -10,9 +10,8 @@
     <link rel="stylesheet" href="./style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300&family=Roboto&display=swap" rel="stylesheet">
 </head>
-<style>
-</style>
-<body></body>
+
+<body>
     <img src="./logo.jpg" />
     <h1 style="font-family: Arial, Helvetica, sans-serif">
         Course Registration Form
@@ -21,7 +20,7 @@
         <div>
             <div>
                 <h2>Select City</h2>
-                <h2 style="margin-left: 38.55%;">Select Course</h2>
+                <h2 class="Scourse">Select Course</h2>
             </div><br>
             <select name="city" id="city" class="fline">
                 <option value=""></option>
@@ -42,7 +41,7 @@
                     <h2>Full Name</h2>
                 </label>
                 <label for="fname">
-                    <h2 style="margin-left: 38.5%;">Father Name</h2>
+                    <h2 class="fathername">Father Name</h2>
                 </label>
             </div><br>
             <input type="text" name="name" id="name" class="sline" placeholder="Enter Full Name" />
@@ -51,7 +50,7 @@
         <div><br>
             <div><br>
                 <h2>DOB (Date of Birth)</h2>
-                <h2 style="margin-left: 30.2%;">Gender</h2><br>
+                <h2 class="Sgender">Gender</h2><br>
             </div><br>
             <input type="date" name="dob" id="dob" class="tline" />
             <select name="" id="" class="tline">
@@ -67,7 +66,7 @@
                     <h2>Email</h2>
                 </label>
                 <label for="cnumber">
-                    <h2 style="margin-left: 42.7%;">Contact No</h2>
+                    <h2 class="Contactnumber">Contact No</h2>
                 </label>
             </div><br>
             <input type="email" name="email" id="email" class="frline" placeholder="example@gmail.com" />
@@ -80,7 +79,7 @@
                     <h2>CNIC</h2>
                 </label>
                 <label for="fcnic">
-                    <h2 style="margin-left: 43.1%;">Father's CNIC</h2>
+                    <h2 class="FatherNIC">Father's CNIC</h2>
                 </label><br><br>
             </div>
             <input type="number" name="cnic" id="cnic" maxlength="15" class="fvline"
@@ -119,7 +118,7 @@
             <hr /><br />
         </div>
         <div>
-            <ol>
+            <ol class="instruction">
                 <li>
                     I hereby, solemnly declare that the data and facts mentioned herein
                     are true and correct to the best of my knowledge. Further, I will
